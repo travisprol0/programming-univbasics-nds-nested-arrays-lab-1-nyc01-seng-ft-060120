@@ -27,7 +27,10 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  
+  array = [
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
+    ]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
